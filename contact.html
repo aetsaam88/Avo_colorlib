@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+   <nav>
+  <div class="navigation">
+    <div class="navigation-first">
+      <div class="logo">a<span>v</span>o</div>
+
+      <!-- Hamburger Menu -->
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="navi-bar" id="navi-bar-links">
+        <a href="index.html">Home</a>
+        <a href="about..html">About</a>
+        <a href="wok.html">Work</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="image-overlay">
+      <div class="nav2">
+        <a href="index.html" class="fade-in-up">Home <i class="fas fa-chevron-right" style="color: red;"></i></a>
+        <a href="about..html" class="fade-in-up">Contact Us <i class="fas fa-chevron-right" style="color: red;"></i></a>
+      </div>
+      <h1 class="fade-in-up">Contact</h1>
+    </div>
+  </div>
+</nav>
+
+
+<script>
+  const mobileMenu = document.getElementById("mobile-menu");
+  const navLinks = document.getElementById("navi-bar-links");
+
+  mobileMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+
+ <div class="container-first ">
+        <header class="header fade-in-up">
+            <h2>HAVE A PROJECT?</h2>
+            <p class="fade-in-up">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        </header>
+
+        <section class="contact-section">
+            <div class="contact-form-container">
+                <form class="contact-form fade-in-up">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" class="input-field">
+                        <input type="email" placeholder="Your Email" class="input-field">
+                    </div>
+                    <input type="text" placeholder="Subject" class="input-field full-width">
+                    <textarea placeholder="Message" class="input-field full-width message-field"></textarea>
+                    <button type="submit" class="send-message-btn">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info-container">
+                <div class="contact-item fade-in-up">
+                    <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-text">
+                        <span>Address:</span>
+                        198 West 21th Street, Suite
+                        721 New York NY 10016
+                    </div>
+                </div>
+                <div class="contact-item fade-in-up">
+                    <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                    <div class="info-text">
+                        <span>Phone:</span>
+                        + 1235 2355 98
+                    </div>
+                </div>
+                <div class="contact-item fade-in-up">
+                    <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                    <div class="info-text">
+                        <span>Email:</span>
+                        info@yoursite.com
+                    </div>
+                </div>
+                <div class="contact-item fade-in-up">
+                    <div class="icon-circle"><i class="fas fa-globe"></i></div>
+                    <div class="info-text">
+                        <span>Website:</span>
+                        yoursite.com
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="map-placeholder">
+<iframe src="https://www.google.com/maps/embed?pb=..." width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div>
+
+ 
+        
+
+  <footer class="footer">
+        <div class="container">
+            <div class="footer-sections">
+                <div class="footer-section about-avo">
+                    <h2>avo</h2>
+                    <p>Far far away, behind the word mountains, far from the countries.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon fade-in-up "><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon fade-in-up "><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon fade-in-up"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h2>Community</h2>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Team</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Reviews</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>About Us</h2>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Our Story</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Meet the team</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Press</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-info">
+                    <h2>Have a Questions?</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+                    <p><i class="fas fa-phone-alt"></i> +2 392 3929 210</p>
+                    <p><i class="fas fa-envelope"></i> info@yourdomain.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright ©2025 All rights reserved | This template is made with ❤️ by <a href="#" class="colorlib-link">Colorlib</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const faders = document.querySelectorAll('.fade-in-up');
+
+        const appearOptions = {
+            threshold: 0.1, // Element is 10% visible
+            rootMargin: "0px 0px -50px 0px" // Start animation slightly before it enters viewport fully
+        };
+
+        const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                } else {
+                    entry.target.classList.add('appear');
+                    appearOnScroll.unobserve(entry.target); // Stop observing once animated
+                }
+            });
+        }, appearOptions);
+
+        faders.forEach(fader => {
+            appearOnScroll.observe(fader);
+        });
+    });
+</script>
+
+
+    </body>
+</html>
